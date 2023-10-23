@@ -21,6 +21,7 @@ public class Student {
 	public String getStudentAddress() {
 		return studentAddress;
 	}
+	
 	public void setStudentAddress(String studentAddress) {
 		System.out.println("Set student Address");
 		this.studentAddress = studentAddress;
