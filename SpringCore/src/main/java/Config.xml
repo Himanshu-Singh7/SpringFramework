@@ -8,25 +8,9 @@
     http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-2.5.xsd
     http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.0.xsd
     http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
-
-	<bean class="com.springcore.Student" name="student1">
-		<property name="studentId">
-			<value>2223</value>
-		</property>
-		<property name="studentName">
-			<value>Himanshu Singh</value>
-		</property>
-		<property name="studentAddress">
-			<value>Varansi</value>
-		</property>
-
-
-	</bean>
-
-
-
-
-
-
-
+	<!-- First bean -->
+	<bean class="com.springcore.Student" name="student1" p:studentId="4563" p:studentName="Himanshu singh" p:studentAddress="Varansi"/>
+	<!-- Second bean -->
+	<bean class="com.springcore.Student" name="student2" p:studentId="4564" p:studentName="Rahul singh" p:studentAddress="Chandauli"/>
+		
 </beans>

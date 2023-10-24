@@ -21,9 +21,9 @@ public class Student {
 	public String getStudentAddress() {
 		return studentAddress;
 	}
-	
 	public void setStudentAddress(String studentAddress) {
-		System.out.println("Set student Address");
+		System.out.println("Set student Address"
+				+ "");
 		this.studentAddress = studentAddress;
 	}
 	public Student(int studentId, String studentName, String studentAddress) {
@@ -32,7 +32,6 @@ public class Student {
 		this.studentName = studentName;
 		this.studentAddress = studentAddress;
 	}
-	
 	public Student() {
 		super();
 		// TODO Auto-generated constructor stub
