@@ -20,7 +20,7 @@ public class Addition {
 	public Addition(String a,String b) {
 		this.a = Integer.parseInt(a);
 		this.b = Integer.parseInt(b);
-        System.out.println("Consturctor : String ,String");
+                System.out.println("Consturctor : String ,String");
 	}
 	
 
