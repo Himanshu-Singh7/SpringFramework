@@ -2,7 +2,7 @@ package com.springcore.javacofig;
 
 import org.springframework.stereotype.Component;
 
-@Component("firststudent")
+//@Component("firststudent")
 public class Student {
 
 	private Samosa samosa;
